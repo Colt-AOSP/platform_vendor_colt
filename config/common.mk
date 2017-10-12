@@ -76,6 +76,10 @@ include vendor/colt/config/colt.mk
 # Bootanimation
 $(call inherit-product, vendor/colt/config/bootanimation.mk)
 
+# Disable Rescue Party
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.disable_rescue=true
+
 # Include SDCLANG definitions if it is requested and available
 ifeq ($(HOST_OS),linux)
     ifneq ($(wildcard vendor/qcom/sdclang-4.0/),)
