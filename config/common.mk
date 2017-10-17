@@ -75,6 +75,12 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/colt/overlay/dictionaries
 # Packages
 include vendor/colt/config/packages.mk
 
+# Charging sounds
+PRODUCT_COPY_FILES += \
+    vendor/colt/google/effects/BatteryPlugged.ogg:system/media/audio/ui/BatteryPlugged.ogg \
+    vendor/colt/google/effects/BatteryPlugged_48k.ogg:system/media/audio/ui/BatteryPlugged_48k.ogg
+
+
 # ColtVersion
 include vendor/colt/config/colt.mk
 
