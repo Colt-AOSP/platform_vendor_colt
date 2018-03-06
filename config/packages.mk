@@ -66,7 +66,33 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NotificationsDark \
     NotificationsLight \
-    NotificationsPrimary
+    NotificationsPrimary \
+    7z \
+    bash \
+    bzip2 \
+    curl \
+    e2fsck \
+    fsck.ntfs \
+    gdbserver \
+    htop \
+    lib7z \
+    libsepol \
+    micro_bench \
+    mke2fs \
+    mkfs.ntfs \
+    mount.ntfs \
+    openvpn \
+    oprofiled \
+    pigz \
+    powertop \
+    sqlite3 \
+    strace \
+    tune2fs \
+    unrar \
+    unzip \
+    vim \
+    wget \
+    zip
 
 PRODUCT_PACKAGES += \
     AccentSluttyPink \
