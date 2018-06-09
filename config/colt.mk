@@ -12,11 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-COLT_TAG=Chilly
+COLT_TAG=Smoky
 
 # COLT RELEASE VERSION
 COLT_VERSION_MAJOR = 2
-COLT_VERSION_MINOR = 1
+COLT_VERSION_MINOR = 2
 COLT_VERSION_MAINTENANCE =
 
 VERSION := $(COLT_VERSION_MAJOR).$(COLT_VERSION_MINOR)$(COLT_VERSION_MAINTENANCE)
@@ -66,3 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/colt/prebuilt/fonts/roadrage/road_rage.ttf:system/fonts/RoadRage-Regular.ttf \
     vendor/colt/prebuilt/fonts/snowstorm/snowstorm.ttf:system/fonts/Snowstorm-Regular.ttf \
     vendor/colt/prebuilt/fonts/vcrosd/vcr_osd_mono.ttf:system/fonts/ThemeableFont-Regular.ttf
+
+# ColtOS Export Zip
+export COLT_TARGET_ZIP := $(COLT_VERSION).zip
