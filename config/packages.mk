@@ -63,6 +63,11 @@ PRODUCT_PACKAGES += \
     ZeroZeroTheme \
     GboardOmniTheme
 
+# Analog clocks
+PRODUCT_PACKAGES += \
+    AnalogDeadpool \
+    AnalogColt
+
 PRODUCT_PACKAGES += \
     NotificationsDark \
     NotificationsLight \
