@@ -152,3 +152,17 @@ PRODUCT_PACKAGES += \
  #Colt Wallpapers
  PRODUCT_PACKAGES += \
     ColtPapers
+
+# rsync
+ PRODUCT_PACKAGES += \
+    rsync
+
+# Openssh
+ PRODUCT_PACKAGES += \
+    scp \
+    sftp \
+    ssh \
+    sshd \
+    sshd_config \
+    ssh-keygen \
+    start-ssh
