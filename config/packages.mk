@@ -150,7 +150,7 @@ PRODUCT_PACKAGES += \
 # PrebuiltApks
 PRODUCT_PACKAGES += \
     ViaBrowser \
-    Phonograph \
+    RetroMusicPlayer \
     WallpaperPickerGoogle \
     Gcam
 
