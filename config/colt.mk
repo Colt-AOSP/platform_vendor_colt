@@ -12,11 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-COLT_TAG=Smoky
+COLT_TAG=Buff
 
 # COLT RELEASE VERSION
 COLT_VERSION_MAJOR = 2
-COLT_VERSION_MINOR = 2
+COLT_VERSION_MINOR = 3
 COLT_VERSION_MAINTENANCE =
 
 VERSION := $(COLT_VERSION_MAJOR).$(COLT_VERSION_MINOR)$(COLT_VERSION_MAINTENANCE)
