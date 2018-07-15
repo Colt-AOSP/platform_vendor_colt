@@ -151,8 +151,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ViaBrowser \
     RetroMusicPlayer \
-    WallpaperPickerGoogle \
+    WallpaperPickerGoogle
+
+# GCam Optional
+ifeq ($(TARGET_USE_GCAM),true)
+PRODUCT_PACKAGES += \
     Gcam
+endif
 
  #Colt Wallpapers
  PRODUCT_PACKAGES += \
